@@ -324,6 +324,18 @@ return [
             'log' => false,
             //'init' => ['SET GLOBAL innodb_stats_on_metadata = 0'],
         ],
+        'test_template' => [
+            'className' => Connection::class,
+            'driver' => Mysql::class,
+        	'persistent' => false,
+            'timezone' => 'UTC',
+            //'encoding' => 'utf8mb4',
+            'flags' => [],
+            'cacheMetadata' => true,
+            'quoteIdentifiers' => false,
+            'log' => false,
+            //'init' => ['SET GLOBAL innodb_stats_on_metadata = 0'],
+        ],
     ],
 
     /*

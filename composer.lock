@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "78f0813d2e19252372610ff0834d4122",
+    "content-hash": "1631996bac2809c574e51648c62894cc",
     "packages": [
         {
             "name": "aura/intl",
@@ -51,6 +51,38 @@
                 "localization"
             ],
             "time": "2017-01-20T05:00:11+00:00"
+        },
+        {
+            "name": "cakedc/cakephp-db-test",
+            "version": "dev-2.next",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CakeDC/cakephp-db-test.git",
+                "reference": "f3f573afcaa62b1235544e0e18b796ffc55569e8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CakeDC/cakephp-db-test/zipball/f3f573afcaa62b1235544e0e18b796ffc55569e8",
+                "reference": "f3f573afcaa62b1235544e0e18b796ffc55569e8",
+                "shasum": ""
+            },
+            "require": {
+                "cakephp/cakephp": "^4.0.0",
+                "php": ">=7.2"
+            },
+            "require-dev": {
+                "cakephp/cakephp-codesniffer": "dev-next",
+                "phpunit/phpunit": "^8.0"
+            },
+            "type": "cakephp-plugin",
+            "autoload": {
+                "psr-4": {
+                    "CakeDC\\DbTest\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "DbTest plugin for CakePHP",
+            "time": "2019-12-23T10:28:30+00:00"
         },
         {
             "name": "cakephp/cakephp",
@@ -4482,6 +4514,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "cakedc/cakephp-db-test": 20,
         "psy/psysh": 0
     },
     "prefer-stable": true,

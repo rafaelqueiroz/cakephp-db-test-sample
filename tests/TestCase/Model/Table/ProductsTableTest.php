@@ -20,15 +20,6 @@ class ProductsTableTest extends TestCase
     protected $Products;
 
     /**
-     * Fixtures
-     *
-     * @var array
-     */
-    protected $fixtures = [
-        'app.Products',
-    ];
-
-    /**
      * setUp method
      *
      * @return void

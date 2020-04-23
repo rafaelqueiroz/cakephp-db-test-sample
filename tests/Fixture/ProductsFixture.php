@@ -10,6 +10,9 @@ use Cake\TestSuite\Fixture\TestFixture;
  */
 class ProductsFixture extends TestFixture
 {
+
+    public $connection = 'test';
+    
     /**
      * Fields
      *
@@ -44,9 +47,9 @@ class ProductsFixture extends TestFixture
         $this->records = [
             [
                 'id' => 1,
-                'name' => 'Lorem ipsum dolor sit amet',
-                'slug' => 'Lorem ipsum dolor sit amet',
-                'price' => 1.5,
+                'name' => 'iPhone SE',
+                'slug' => 'iphone-se',
+                'price' => 399,
                 'description' => 'Lorem ipsum dolor sit amet, aliquet feugiat. Convallis morbi fringilla gravida, phasellus feugiat dapibus velit nunc, pulvinar eget sollicitudin venenatis cum nullam, vivamus ut a sed, mollitia lectus. Nulla vestibulum massa neque ut et, id hendrerit sit, feugiat in taciti enim proin nibh, tempor dignissim, rhoncus duis vestibulum nunc mattis convallis.',
                 'created' => '2020-04-23 13:12:58',
                 'modified' => '2020-04-23 13:12:58',
